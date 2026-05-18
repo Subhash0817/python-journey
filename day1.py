@@ -23,7 +23,7 @@ elif (marks>= 40):
      grade= "D"
 
 else:
-    print("F")  
+    grade ="F"
   
 print(f"{student} got grade {grade} ")
 
