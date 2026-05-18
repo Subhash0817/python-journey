@@ -1,4 +1,4 @@
-def say_name():
+"""def say_name():
     print("subhash")
 
 say_name()
@@ -10,4 +10,16 @@ def add_numbers():
 
     print(first_number+second_number)
 
-add_numbers()
+add_numbers()"""
+
+number = int(input("enter a number:"))
+def is_even(number):
+    if number % 2== 0:
+        return True
+    else:
+        return False
+    
+if is_even(number):
+    print("it is even")
+else:
+    print("its odd")
