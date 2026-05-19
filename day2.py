@@ -1,4 +1,4 @@
-"""def say_name():
+def say_name():
     print("subhash")
 
 say_name()
@@ -30,7 +30,7 @@ user = input("enter your name:")
 def greet_name(user):
     print(f"welcome {user}")
           
-greet_name(user)"""
+greet_name(user)
 
 
 
