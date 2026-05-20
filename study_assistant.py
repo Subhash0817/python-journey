@@ -4,7 +4,7 @@ def greet(name):
      print(f"hello {name}")
 greet("subhash")
 def add(first, second):
-        return  first, second
+        return  first + second
 first = int(input("enter first number:"))
 second = int(input("enter second number:"))
     
@@ -20,11 +20,9 @@ def ai_quiz():
     print("Quiz starts")
 
 while True:
-    print("1. learn python")
-    print("2. AI quiz")
-    print("3. check score")
-    print("4. exit")
-
+    menu = ["1. learn python", "2.ai quiz", "3.check score", "4.exit"]
+    for item in menu:
+        print(item)
     choice = input()
 
     if choice == "1":
