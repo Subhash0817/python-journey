@@ -1,10 +1,22 @@
 
 score = 0
+def greet(name):
+     print(f"hello {name}")
+greet("subhash")
+def add(first, second):
+        return  first, second
+first = int(input("enter first number:"))
+second = int(input("enter second number:"))
+    
+result = add(first, second)
+print(result)
+
 
 def learn_python():
     print("Python is a versatile, high-level programming language known for being incredibly easy to read and write. It is widely used by everyone from beginners to top tech companies like Google and NASA for things like web development, data science, and AI.")
 
 def ai_quiz():
+    global score
     print("Quiz starts")
 
 while True:
