@@ -18,6 +18,15 @@ def learn_python():
 def ai_quiz():
     global score
     print("Quiz starts")
+def ask_question(question, correct_answer):
+    global score
+    print(question)
+    answer =input()
+    if answer == correct_answer:
+                print("correct answer!")
+                score += 1
+    else:
+            print("wrong answer")
 
 while True:
     menu = ["1. learn python", "2.ai quiz", "3.check score", "4.exit"]
@@ -29,76 +38,11 @@ while True:
         learn_python()
     elif choice == "2":
         ai_quiz()
-        print("What function gives length of a string?")
-        answer =input()
-        if answer == "len":
-                print("correct answer!")
-                score += 1
-        else:
-            print("wrong answer")
-            print("What keyword creates a function?")
-            answer =input()
-        if answer == "def":
-                print("correct answer!")
-                score += 1
-        else:
-            print("wrong answer")
-            print("What keyword is used for conditions?")
-            answer =input()
-        if answer == "if":
-                print("correct answer!")
-                score += 1
-        else:
-            print("wrong answer")
-            print("Which keyword exits a loop?")
-            answer =input()
-        if answer == "break":
-                print("correct answer!")
-                score += 1
-        else:
-            print("wrong answer")
-            print("What function takes user input?")
-            answer =input()
-        if answer == "input":
-                print("correct answer!")
-                score += 1
-        else:
-            print("wrong answer")
-            print("What operator checks equality?")
-            answer =input()
-        if answer == "==":
-                print("correct answer!")
-                score += 1
-        else:
-            print("wrong answer")
-            print("Which loop runs while condition is True?")
-            answer =input()
-        if answer == "while":
-                print("correct answer!")
-                score += 1
-        else:
-            print("wrong answer")
-            print("What does AI stand for?")
-            answer =input()
-        if answer == "artificial intelligence":
-                print("correct answer!")
-                score += 1
-        else:
-            print("wrong answer")
-            print("What language is most used in AI?")
-            answer =input()
-        if answer == "python":
-                print("correct answer!")
-                score += 1
-        else:
-            print("wrong answer")
-            print("What does LLM stand for?")
-            answer =input()
-        if answer == "large language model":
-                print("correct answer!")
-                score += 1
-        else:
-            print("wrong answer") 
+        ask_question("What keyword creates a function?", "def")
+
+        ask_question("Which keyword exits a loop?", "break")
+
+        ask_question("What function takes user input?", "input")     
     elif choice == "3":
         print(f"🎯 Your current score is: {score}")
     elif choice == "4":
