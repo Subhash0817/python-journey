@@ -1,7 +1,8 @@
 
 score = 0
+name = input("Enter your name: ")
 def greet(name):
-     print(f"hello {name}")
+     print(f"Hello! {name}")
 greet("subhash")
 def add(first, second):
         return  first + second
@@ -18,6 +19,20 @@ def learn_python():
 def ai_quiz():
     global score
     print("Quiz starts")
+    questions = [
+        ("What keyword creates a function?", "def"),
+        ("Which keyword exits a loop?", "break"),
+        ("What function gives string length?", "len")
+            ]  
+    for question , answer in questions:
+             ask_question(question, answer)
+    print(f"{name}'s Final score: {score}")
+    if score >= 8:
+        print("Excellent")
+    elif score >= 5:
+        print("Good job")
+    else:
+        print("Keep practicing")
 def ask_question(question, correct_answer):
     global score
     print(question)
@@ -38,12 +53,9 @@ while True:
         learn_python()
     elif choice == "2":
         ai_quiz()
-        ask_question("What keyword creates a function?", "def")
-
-        ask_question("Which keyword exits a loop?", "break")
-
-        ask_question("What function takes user input?", "input")     
     elif choice == "3":
         print(f"🎯 Your current score is: {score}")
     elif choice == "4":
         break
+    else:
+        print("Invalid choice. Please enter 1, 2, 3, or 4.")
