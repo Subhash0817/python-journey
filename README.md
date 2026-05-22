@@ -12,6 +12,7 @@ Daily Python learning and projects.
 ## 🚀 Projects
 - Study Assistant
 - DSA Practice
+
 ## Skills Learned
 - Python Basics
 - Functions
@@ -19,7 +20,7 @@ Daily Python learning and projects.
 - File Handling
 - Git & GitHub
 
- ## Upcoming
+## 🎯 Upcoming Goals
 - OOP
 - APIs
 - DSA
