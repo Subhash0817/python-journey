@@ -1,4 +1,4 @@
-
+print("📘 Welcome to Study Assistant")
 score = 0
 name = input("Enter your name: ")
 def greet(name):
@@ -27,6 +27,13 @@ def ai_quiz():
     for question , answer in questions:
              ask_question(question, answer)
     print(f"{name}'s Final score: {score}")
+    file = open("scores.txt", "a")
+
+    file.write(f"{name} scored {score}\n")
+
+    file.close()
+
+    print("Score saved successfully!")
     if score >= 8:
         print("Excellent")
     elif score >= 5:
@@ -44,6 +51,7 @@ def ask_question(question, correct_answer):
             print("wrong answer")
 
 while True:
+    print("\nChoose an option:")
     menu = ["1. learn python", "2.ai quiz", "3.check score", "4.View previous scores", "5. exit"]
     for item in menu:
         print(item)
@@ -61,6 +69,7 @@ while True:
         print(file.read())
         file.close()
     elif choice == "5":
+        print("Thanks for using Study Assistant!")
         break
 
     else:
