@@ -44,7 +44,7 @@ def ask_question(question, correct_answer):
             print("wrong answer")
 
 while True:
-    menu = ["1. learn python", "2.ai quiz", "3.check score", "4.exit"]
+    menu = ["1. learn python", "2.ai quiz", "3.check score", "4.View previous scores", "5. exit"]
     for item in menu:
         print(item)
     choice = input()
@@ -56,6 +56,11 @@ while True:
     elif choice == "3":
         print(f"🎯 Your current score is: {score}")
     elif choice == "4":
+        file = open("scores.txt", "r")
+        print(file.read())
+        file.close()
+    elif choice == "5":
         break
+
     else:
-        print("Invalid choice. Please enter 1, 2, 3, or 4.")
+        print("Invalid choice. Please enter 1, 2, 3, 4 or 5.")
