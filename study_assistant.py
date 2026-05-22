@@ -57,6 +57,7 @@ while True:
         print(f"🎯 Your current score is: {score}")
     elif choice == "4":
         file = open("scores.txt", "r")
+        print("📂 Previous Scores:")
         print(file.read())
         file.close()
     elif choice == "5":
