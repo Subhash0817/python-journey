@@ -41,3 +41,33 @@ player["score"] = input("enter user score:")
 player["weapon"] = input("enter user weapon:")
 
 print(player)
+
+
+
+player = {
+    "username" : "subhash",
+    "level" : "21",
+    "score" : "30",
+    "weapon": "operator"
+}
+for key, value in player.items():
+    print(key, ":", value)
+
+
+player1 = {
+    "username" : "subhash",
+    "level" : "21",
+    "score" : "30",
+    "weapon": "operator"
+}
+player2 = {
+    "username" : "v",
+    "level" : "23",
+    "score" : "30",
+    "weapon": "vandal"
+}
+players =[player1 , player2]
+for player in players:
+    for key, value in player.items():
+        print(key, ":", value)
+    print("--------------")
