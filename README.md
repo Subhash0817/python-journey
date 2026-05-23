@@ -8,7 +8,7 @@ Daily Python learning and projects.
 - Day 3: Lists and Loops
 - Day 4: Reusable Quiz System
 - Day 5: File Handling and Score History
-- - Day 6: Dictionaries and Inventory Management System
+- Day 6: Dictionaries and Inventory Management System
 
 ## 🚀 Projects
 - Study Assistant
