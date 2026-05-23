@@ -143,3 +143,63 @@ else:
 print(inventory["gun"]["name"])
 print(inventory["knife"]["rarity"])
 print(inventory["gun"]["price"])
+
+
+inventory ={
+    "gun": {
+            "name": "vandal",
+            "damage": 160,
+            "ammo" : 25,
+            "health": 200,
+            "price": 2900,
+            "rarity": "60%"
+            
+        },
+
+            "knife": {
+            "name": "karambit",
+            "damage": 150,
+            "ammo": "infinity",
+            "health": "infinity",
+            "price": "free",
+            "rarity": "96%"
+        }
+    }
+
+while True:
+    print("1. View inventory")
+    print("2. Add weapon")
+    print("3. Remove weapon")
+    print("4. Exit")
+
+    choice = input("Enter choice: ")
+    if choice =="1":
+        for weapon, data in inventory.items():
+            print(weapon)
+            for key, value in data.items():
+                print(key, ":", value)
+                print("-----------")
+    elif choice == "2":
+        weapon_name = input("Enter weapon name: ")
+        damage = input("Enter damage: ")
+        ammo = input("Enter ammo: ")
+
+        inventory[weapon_name] = {
+            "damage": damage,
+            "ammo": ammo
+  
+}
+        file = open("inventory.txt", "a")
+
+        file.write(f"{weapon_name}, {damage}, {ammo}\n")
+
+        file.close()
+
+    elif choice == "3":
+        print("Remove weapon")
+
+    elif choice == "4":
+        break
+
+    else:
+        print("Invalid choice")
