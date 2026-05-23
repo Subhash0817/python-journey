@@ -71,3 +71,75 @@ for player in players:
     for key, value in player.items():
         print(key, ":", value)
     print("--------------")
+
+
+
+"""NESTED DICTIONARIES"""
+
+players = {
+    "player1": {
+        "username": "subhash",
+        "level": 21,
+        "weapon": "operator",
+        "score": 90,
+        "rank": "platinum",
+        "health": 200
+            
+    },
+
+    "player2": {
+        "username": "v",
+        "level": 23,
+        "weapon": "vandal",
+        "score": 90,
+        "rank": "diamond",
+        "health": 200
+    }
+}
+print(players["player1"]["username"])
+print(players["player2"]["level"])
+print(players["player1"]["score"])
+print(players["player1"].keys())
+print(players["player1"].values())
+
+
+
+
+inventory = {
+    "gun": {
+        "name": "vandal",
+        "damage": 160,
+        "ammo" : 25,
+        "health": 200,
+        "price": 2900,
+        "rarity": "60%"
+            
+    },
+
+    "knife": {
+        "name": "karambit",
+        "damage": 150,
+        "ammo": "infinity",
+        "health": "infinity",
+        "price": "free",
+        "rarity": "96%"
+    }
+}
+
+for weapon, data in inventory.items():
+    print(weapon)
+
+    for key, value in data.items():
+        print(key, ":", value)
+
+    print("------------")
+
+choice = input("Choose weapon: ")
+if choice in inventory:
+    print(inventory[choice])
+else:
+    print("Weapon not found")
+
+print(inventory["gun"]["name"])
+print(inventory["knife"]["rarity"])
+print(inventory["gun"]["price"])
