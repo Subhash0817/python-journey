@@ -9,10 +9,12 @@ Daily Python learning and projects.
 - Day 4: Reusable Quiz System
 - Day 5: File Handling and Score History
 - Day 6: Dictionaries and Inventory Management System
+- Day 7: Exception Handling and Safe Calculator
 
 ## 🚀 Projects
 - Study Assistant
-- DSA Practice
+- Inventory Management System
+- Safe Calculator
 
 ## Skills Learned
 - Python Basics
@@ -25,6 +27,9 @@ Daily Python learning and projects.
 - Menu Systems
 - While Loops
 - Inventory Management
+- Exception Handling
+- Input Validation
+- Safe Calculator Logic
 
 ## 🎯 Upcoming Goals
 - OOP
