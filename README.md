@@ -10,6 +10,7 @@ Daily Python learning and projects.
 - Day 5: File Handling and Score History
 - Day 6: Dictionaries and Inventory Management System
 - Day 7: Exception Handling and Safe Calculator
+-  Day 8: String Manipulation and Functions
 
 ## 🚀 Projects
 - Study Assistant
@@ -30,6 +31,11 @@ Daily Python learning and projects.
 - Exception Handling
 - Input Validation
 - Safe Calculator Logic
+- String Manipulation
+- Palindrome Logic
+- Vowel Counting
+- Character Counting
+- Space Removal
 
 ## 🎯 Upcoming Goals
 - OOP
