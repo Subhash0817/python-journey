@@ -10,7 +10,8 @@ Daily Python learning and projects.
 - Day 5: File Handling and Score History
 - Day 6: Dictionaries and Inventory Management System
 - Day 7: Exception Handling and Safe Calculator
--  Day 8: String Manipulation and Functions
+- Day 8: String Manipulation and Functions
+- Day 9: Modules, Imports and Random Guessing Game
 
 ## 🚀 Projects
 - Study Assistant
@@ -36,6 +37,11 @@ Daily Python learning and projects.
 - Vowel Counting
 - Character Counting
 - Space Removal
+- Modules
+- Imports
+- Random Module
+- Game Loops
+- Guessing Game Logic
 
 ## 🎯 Upcoming Goals
 - OOP
