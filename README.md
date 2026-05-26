@@ -18,30 +18,35 @@ Daily Python learning and projects.
 - Inventory Management System
 - Safe Calculator
 
-## Skills Learned
-- Python Basics
+## 🚀 Skills & Concepts Learned
+
+### Python Fundamentals
+- Variables & Data Types
 - Functions
 - Loops
-- File Handling
-- Git & GitHub
-- Dictionaries
-- Nested Dictionaries
-- Menu Systems
-- While Loops
-- Inventory Management
-- Exception Handling
-- Input Validation
-- Safe Calculator Logic
 - String Manipulation
+- Modules & Imports
+
+### Problem Solving
 - Palindrome Logic
-- Vowel Counting
-- Character Counting
-- Space Removal
-- Modules
-- Imports
-- Random Module
-- Game Loops
+- Vowel & Character Counting
 - Guessing Game Logic
+- Safe Calculator Logic
+
+### Data Handling
+- File Handling
+- Dictionaries & Nested Dictionaries
+- Inventory Management
+
+### Application Development
+- Menu-Driven Programs
+- Game Loops
+- Input Validation
+- Exception Handling
+
+### Developer Tools
+- Git & GitHub
+- Random Module
 
 ## 🎯 Upcoming Goals
 - OOP
