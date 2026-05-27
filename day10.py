@@ -17,12 +17,15 @@ weapons = [
 ]
 while True:
     choice = input("Enter choice: ")
-    menu = ["1. view weapon", "2. add weapon", "3. remove weapon", "4. exit"]
+    menu = ["1. view weapon", "2. add weapon", "3. remove weapon", "4. search", "5. exit"]
     for item in menu:
         print(item)
     if choice == "1":
         for weapon in weapons:
-            print(weapon)
+            print("Weapon:", weapon["name"])
+            print("Damage:", weapon["damage"])
+            print("Ammo:", weapon["ammo"])
+            print("--------------")
     elif choice == "2":
 
         weapon_name = input("Enter weapon name: ")
@@ -40,7 +43,15 @@ while True:
         weapon_name = input("Enter weapon to remove: ")
         weapons.remove(weapon_name)
     elif choice =="4":
-        print("exit")
+        search = input("Search weapon: ")
+        for weapon in weapons:
+            if weapon["name"] == search:
+                print("weapon available")
+            else: 
+                print("weapon unavailable")
+    elif choice == "5":
+        print(exit)
+        
     else:
         break
 
