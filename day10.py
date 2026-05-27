@@ -7,7 +7,14 @@ weapons.reverse()
 weapons.sort()
 print(weapons)
 
-weapons = []
+
+weapons = [
+    {
+        "name": "vandal",
+        "damage": 160,
+        "ammo": 25
+    }
+]
 while True:
     choice = input("Enter choice: ")
     menu = ["1. view weapon", "2. add weapon", "3. remove weapon", "4. exit"]
@@ -17,8 +24,18 @@ while True:
         for weapon in weapons:
             print(weapon)
     elif choice == "2":
+
         weapon_name = input("Enter weapon name: ")
-        weapons.append(weapon_name)
+        weapon_damage = input("Enter weapon damage: ")
+        weapon_ammo = input("Enter weapon ammo: ")
+
+        weapon = {
+        "name": weapon_name,
+        "damage": weapon_damage,
+        "ammo": weapon_ammo
+    }
+        weapons.append(weapon)
+        print(weapon)
     elif choice == "3":
         weapon_name = input("Enter weapon to remove: ")
         weapons.remove(weapon_name)
@@ -26,3 +43,4 @@ while True:
         print("exit")
     else:
         break
+
