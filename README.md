@@ -12,6 +12,7 @@ Daily Python learning and projects.
 - Day 7: Exception Handling and Safe Calculator
 - Day 8: String Manipulation and Functions
 - Day 9: Modules, Imports and Random Guessing Game
+- Day 10: Advanced Inventory Manager
 
 ## 🚀 Projects
 - Study Assistant
@@ -37,12 +38,17 @@ Daily Python learning and projects.
 - File Handling
 - Dictionaries & Nested Dictionaries
 - Inventory Management
+- List of Dictionaries
+- Structured Data Handling
+- Search Logic
 
 ### Application Development
 - Menu-Driven Programs
 - Game Loops
 - Input Validation
 - Exception Handling
+- Inventory Systems
+- Dynamic Data Storage
 
 ### Developer Tools
 - Git & GitHub
