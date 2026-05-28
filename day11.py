@@ -34,8 +34,13 @@ players = [
     {"name": "sage", "score": 75}
 ]
 
+
 filtered_players = [
     player for player in players
     if player ["score"] >= 70
 ]
+file = open("leaderboard.txt", "w")
+for player in filtered_players:
+    file.write(f"{player['name']} - {player['score']}\n")
+file.close()
 print(filtered_players)
