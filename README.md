@@ -33,6 +33,8 @@ Daily Python learning and projects.
 - Vowel & Character Counting
 - Guessing Game Logic
 - Safe Calculator Logic
+- Data Filtering Logic
+- Leaderboard Systems
 
 ### Data Handling
 - File Handling
@@ -41,6 +43,8 @@ Daily Python learning and projects.
 - List of Dictionaries
 - Structured Data Handling
 - Search Logic
+- List Comprehensions
+- Data Transformation
 
 ### Application Development
 - Menu-Driven Programs
