@@ -13,6 +13,7 @@ Daily Python learning and projects.
 - Day 8: String Manipulation and Functions
 - Day 9: Modules, Imports and Random Guessing Game
 - Day 10: Advanced Inventory Manager
+- Day 11: List Comprehensions, Data Filtering & Leaderboard System
 
 ## 🚀 Projects
 - Study Assistant
