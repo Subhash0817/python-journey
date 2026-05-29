@@ -14,6 +14,7 @@ Daily Python learning and projects.
 - Day 9: Modules, Imports and Random Guessing Game
 - Day 10: Advanced Inventory Manager
 - Day 11: List Comprehensions, Data Filtering & Leaderboard System
+- Day 12: OOP Basics with Player Class
 
 ## 🚀 Projects
 - Study Assistant
@@ -28,6 +29,12 @@ Daily Python learning and projects.
 - Loops
 - String Manipulation
 - Modules & Imports
+- Object-Oriented Programming (OOP)
+- Classes & Objects
+- Constructors (__init__)
+- Attributes
+- Methods
+- self Keyword
 
 ### Problem Solving
 - Palindrome Logic
