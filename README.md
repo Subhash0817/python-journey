@@ -15,6 +15,7 @@ Daily Python learning and projects.
 - Day 10: Advanced Inventory Manager
 - Day 11: List Comprehensions, Data Filtering & Leaderboard System
 - Day 12: OOP Basics with Player Class
+- Day 13: Inheritance, Method Overriding and super()
 
 ## 🚀 Projects
 - Study Assistant
@@ -35,6 +36,11 @@ Daily Python learning and projects.
 - Attributes
 - Methods
 - self Keyword
+- Inheritance
+- Method Overriding
+- super()
+- OOP Design
+- Code Reusability
 
 ### Problem Solving
 - Palindrome Logic
