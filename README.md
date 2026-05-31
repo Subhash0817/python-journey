@@ -16,7 +16,8 @@ Daily Python learning and projects.
 - Day 11: List Comprehensions, Data Filtering & Leaderboard System
 - Day 12: OOP Basics with Player Class
 - Day 13: Inheritance, Method Overriding and super()
-
+- Day 14: JSON Handling, API Requests and Data Retrieval
+  
 ## 🚀 Projects
 - Study Assistant
 - Inventory Management System
@@ -59,7 +60,12 @@ Daily Python learning and projects.
 - Search Logic
 - List Comprehensions
 - Data Transformation
-
+- JSON Data Format
+- JSON Serialization (dump, dumps)
+- JSON Deserialization (load, loads)
+- Reading JSON Files
+- Writing JSON Files
+  
 ### Application Development
 - Menu-Driven Programs
 - Game Loops
@@ -67,7 +73,12 @@ Daily Python learning and projects.
 - Exception Handling
 - Inventory Systems
 - Dynamic Data Storage
-
+- REST API Basics
+- HTTP GET Requests
+- HTTP POST Requests
+- API Response Handling
+- External Data Retrieval
+ 
 ### Developer Tools
 - Git & GitHub
 - Random Module
