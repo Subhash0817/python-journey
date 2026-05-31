@@ -46,3 +46,56 @@ with open("player.json", "r") as file:
 
 print(player_data)
 print(type(player_data))
+
+
+import requests
+
+response = requests.get(
+    "https://jsonplaceholder.typicode.com/users/1"
+)
+
+print(response.status_code)
+
+user = response.json()
+
+print(user["name"])
+print(user["username"])
+print(user["phone"])
+print(user["email"])
+
+
+import requests
+
+response = requests.get(
+    "https://jsonplaceholder.typicode.com/users"
+)
+users = response.json()
+
+name = input("Enter username: ")
+
+for user in users:
+    if user["username"].lower() == name.lower():
+        print("Name:", user["name"])
+        print("Email:", user["email"])
+        print("Phone:", user["phone"])
+        print("website:", user["website"])
+        print("company:", user["company"])
+        print("city:", user["city"])
+        break
+else:
+    print("User not found")
+import requests
+
+new_user = {
+    "name": "Subhash",
+    "username": "subhash08",
+    "email": "subhash@example.com"
+}
+
+response = requests.post(
+    "https://jsonplaceholder.typicode.com/users",
+    json=new_user
+)
+
+print(response.status_code)
+print(response.json())
