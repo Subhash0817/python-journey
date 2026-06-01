@@ -19,11 +19,29 @@ Daily Python learning and projects.
 - Day 14: JSON Handling, API Requests and Data Retrieval
 - Day 15: API Error Handling and HTTP Status Codes
   
-## 🚀 Projects
-- Study Assistant
-- Inventory Management System
-- Safe Calculator
+### 🚀 Projects
+## Study Assistant
+## Inventory Management System
+## Safe Calculator
+## Valorant Weapon API Manager
+A console-based Python application for managing Valorant weapons.
 
+Features:
+- View Weapons
+- Add Weapons
+- Remove Weapons
+- Search Weapons
+- Save Data to JSON
+- Load Data from JSON
+- API User Lookup using Requests
+
+Technologies Used:
+- Python
+- JSON
+- Requests Library
+- File Handling
+- Dictionaries & Lists
+  
 ## 🚀 Skills & Concepts Learned
 
 ### Python Fundamentals
