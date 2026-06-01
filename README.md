@@ -17,6 +17,7 @@ Daily Python learning and projects.
 - Day 12: OOP Basics with Player Class
 - Day 13: Inheritance, Method Overriding and super()
 - Day 14: JSON Handling, API Requests and Data Retrieval
+- Day 15: API Error Handling and HTTP Status Codes
   
 ## 🚀 Projects
 - Study Assistant
@@ -78,7 +79,13 @@ Daily Python learning and projects.
 - HTTP POST Requests
 - API Response Handling
 - External Data Retrieval
- 
+ - API Error Handling
+- HTTP Status Codes (200, 404)
+- GET Requests
+- Response Validation
+- Exception Handling with APIs
+- API Data Search
+  
 ### Developer Tools
 - Git & GitHub
 - Random Module
