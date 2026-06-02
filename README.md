@@ -18,6 +18,7 @@ Daily Python learning and projects.
 - Day 13: Inheritance, Method Overriding and super()
 - Day 14: JSON Handling, API Requests and Data Retrieval
 - Day 15: API Error Handling and HTTP Status Codes
+- Day 16: HTTP Methods and CRUD Operations
   
 ### 🚀 Projects
 ## Study Assistant
@@ -106,6 +107,13 @@ Technologies Used:
 - Response Validation
 - Exception Handling with APIs
 - API Data Search
+- REST API Methods
+- GET Requests
+- POST Requests
+- PUT Requests
+- DELETE Requests
+- CRUD Operations
+- JSON API Communication
   
 ### Developer Tools
 - Git & GitHub
