@@ -24,6 +24,7 @@ Daily Python learning and projects.
 ## Inventory Management System
 ## Safe Calculator
 ## Valorant Weapon API Manager
+
 A console-based Python application for managing Valorant weapons.
 
 Features:
@@ -31,9 +32,10 @@ Features:
 - Add Weapons
 - Remove Weapons
 - Search Weapons
-- Save Data to JSON
-- Load Data from JSON
-- API User Lookup using Requests
+- Save Weapons to JSON
+- Load Weapons from JSON
+- API User Lookup
+- Menu-Driven Interface
 
 Technologies Used:
 - Python
@@ -41,6 +43,7 @@ Technologies Used:
 - Requests Library
 - File Handling
 - Dictionaries & Lists
+- REST APIs
   
 ## 🚀 Skills & Concepts Learned
 
