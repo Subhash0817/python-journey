@@ -77,10 +77,12 @@ def api_lookup():
             return
      
     print("User not found")
+def count_weapons():
+    print(len(weapons))
 
 while True:
     print("\n choose an option:")
-    menu = ["1. view weapons", "2. add weapons", "3. remove weapons","4. search weapon", "5. save weapons", "6. load weapons", "7. api lookup", "8. exit"]
+    menu = ["1. view weapons", "2. add weapons", "3. remove weapons","4. search weapon", "5. save weapons", "6. load weapons", "7. api lookup", "8. count weapons", "9. exit"]
     for item in menu:
         print(item)
     choice = input("Enter choice: ")
@@ -99,6 +101,8 @@ while True:
     elif choice == "7":
         api_lookup()
     elif choice == "8":
+        count_weapons()
+    elif choice == "9":
         print("exit")
         break
     else:
