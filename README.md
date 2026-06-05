@@ -19,6 +19,9 @@ Daily Python learning and projects.
 - Day 14: JSON Handling, API Requests and Data Retrieval
 - Day 15: API Error Handling and HTTP Status Codes
 - Day 16: HTTP Methods and CRUD Operations
+- Day 17: Introduction to Object-Oriented Programming (OOP)
+- Day 18: Classes, Objects, Methods
+- Day 19: Inheritence
   
 ### 🚀 Projects
 ## Study Assistant
