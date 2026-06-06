@@ -22,6 +22,7 @@ Daily Python learning and projects.
 - Day 17: Introduction to Object-Oriented Programming (OOP)
 - Day 18: Classes, Objects, Methods
 - Day 19: Inheritence
+- Day 20 - Encapsulation
   
 ### 🚀 Projects
 ## Study Assistant
@@ -68,6 +69,11 @@ Technologies Used:
 - super()
 - OOP Design
 - Code Reusability
+- Encapsulation
+- Private Variables
+- Data Hiding
+- Controlled Access to Data
+- Methods for Updating Private Data
 
 ### Problem Solving
 - Palindrome Logic
