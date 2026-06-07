@@ -23,6 +23,7 @@ Daily Python learning and projects.
 - Day 18: Classes, Objects, Methods
 - Day 19: Inheritence
 - Day 20 - Encapsulation
+- Day 21 - Polymorphism, SQLite Database Basics
   
 ### 🚀 Projects
 ## Study Assistant
@@ -74,6 +75,10 @@ Technologies Used:
 - Data Hiding
 - Controlled Access to Data
 - Methods for Updating Private Data
+- Polymorphism
+- Method Overriding
+- Dynamic Method Calls
+- Same Interface, Different Behavior
 
 ### Problem Solving
 - Palindrome Logic
@@ -123,6 +128,16 @@ Technologies Used:
 - DELETE Requests
 - CRUD Operations
 - JSON API Communication
+  
+### Databases
+- SQLite
+- Database Creation
+- Tables
+- INSERT
+- SELECT
+- UPDATE
+- DELETE
+- CRUD Operations
   
 ### Developer Tools
 - Git & GitHub
