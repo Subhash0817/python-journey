@@ -58,3 +58,6 @@ agents = [jett, sage, phoenix ]
 
 for agent in agents:
     agent.ability()
+
+
+
