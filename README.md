@@ -24,6 +24,8 @@ Daily Python learning and projects.
 - Day 19: Inheritence
 - Day 20 - Encapsulation
 - Day 21 - Polymorphism, SQLite Database Basics
+- Day 22: Abstraction , Flask Basics, Routes and API Endpoints
+
   
 ### 🚀 Projects
 ## Study Assistant
@@ -79,6 +81,11 @@ Technologies Used:
 - Method Overriding
 - Dynamic Method Calls
 - Same Interface, Different Behavior
+- Abstraction
+- Abstract Classes
+- Abstract Methods
+- ABC Module
+- Method Enforcement
 
 ### Problem Solving
 - Palindrome Logic
@@ -128,6 +135,17 @@ Technologies Used:
 - DELETE Requests
 - CRUD Operations
 - JSON API Communication
+
+  ### Backend Development
+- Flask Installation
+- Flask Application Setup
+- Web Servers
+- Routes
+- URL Endpoints
+- GET Requests
+- JSON Responses
+- API Basics
+- Backend Fundamentals
   
 ### Databases
 - SQLite
