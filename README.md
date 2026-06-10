@@ -22,9 +22,11 @@ Daily Python learning and projects.
 - Day 17: Introduction to Object-Oriented Programming (OOP)
 - Day 18: Classes, Objects, Methods
 - Day 19: Inheritence
-- Day 20 - Encapsulation
-- Day 21 - Polymorphism, SQLite Database Basics
+- Day 20: Encapsulation
+- Day 21: Polymorphism, SQLite Database Basics
 - Day 22: Abstraction , Flask Basics, Routes and API Endpoints
+- Day 23: Student Management System
+- Day 24: Search & Remove Student Features
 
   
 ### 🚀 Projects
@@ -135,6 +137,12 @@ Technologies Used:
 - DELETE Requests
 - CRUD Operations
 - JSON API Communication
+- Menu Driven Programs
+- Lists of Objects
+- Search Functionality
+- Record Management
+- User Input Handling
+- Interactive Console Applications
 
   ### Backend Development
 - Flask Installation
