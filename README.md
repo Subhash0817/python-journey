@@ -27,6 +27,7 @@ Daily Python learning and projects.
 - Day 22: Abstraction , Flask Basics, Routes and API Endpoints
 - Day 23: Student Management System
 - Day 24: Search & Remove Student Features
+- Day 25: Class Variables and Class Methods
 
   
 ### 🚀 Projects
@@ -88,6 +89,11 @@ Technologies Used:
 - Abstract Methods
 - ABC Module
 - Method Enforcement
+- Class Variables
+- Class Methods
+- @classmethod
+- Shared Class Data
+- Instance Variables vs Class Variables
 
 ### Problem Solving
 - Palindrome Logic
