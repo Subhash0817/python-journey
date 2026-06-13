@@ -28,6 +28,7 @@ Daily Python learning and projects.
 - Day 23: Student Management System
 - Day 24: Search & Remove Student Features
 - Day 25: Class Variables and Class Methods
+- Day 26: Static Methods
 
   
 ### 🚀 Projects
