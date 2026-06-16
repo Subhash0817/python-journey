@@ -31,6 +31,7 @@ Daily Python learning and projects.
 - Day 26: Static Methods
 - Day 27: Notes App Using File Handling
 - Day 28: Decorators
+- Day 29: Student Management System with File Storage
 
   
 ### 🚀 Projects
