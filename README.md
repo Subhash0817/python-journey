@@ -32,6 +32,7 @@ Daily Python learning and projects.
 - Day 27: Notes App Using File Handling
 - Day 28: Decorators
 - Day 29: Student Management System with File Storage
+- Day 30: student Management with added updated Marks feature
 
   
 ### 🚀 Projects
