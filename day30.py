@@ -114,16 +114,15 @@ while True:
             if student.name == name:
 
                 new_marks = int(input("Enter New Marks: "))
+                student.marks = new_marks
 
-            student.marks = new_marks
+                save_students()
 
-            save_students()
+                print("Marks Updated Successfully")
 
-            print("Marks Updated Successfully")
+                found = True
 
-            found = True
-
-            break
+                break
 
     if not found:
 
