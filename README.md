@@ -35,6 +35,7 @@ Daily Python learning and projects.
 - Day 30: student Management with added updated Marks feature
 - Day 31: Introduction to SQLite
 - Day 32: SQLite CRUD Student Management System
+- Day 33: OOP + SQLite Student Management System
 
   
 ### 🚀 Projects
