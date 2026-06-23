@@ -37,8 +37,10 @@ Daily Python learning and projects.
 - Day 32: SQLite CRUD Student Management System
 - Day 33: OOP + SQLite Student Management System
 - Day 34: Library Management System
+- Day 35: Expense Tracker
+- Day 36: Task Manager
 
-  
+    
 ### 🚀 Projects
 ## Study Assistant
 ## Inventory Management System
