@@ -39,6 +39,7 @@ Daily Python learning and projects.
 - Day 34: Library Management System
 - Day 35: Expense Tracker
 - Day 36: Task Manager
+- Day 37: Task Manager with SQLite
 
     
 ### 🚀 Projects
