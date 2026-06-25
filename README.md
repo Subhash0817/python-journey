@@ -40,6 +40,7 @@ Daily Python learning and projects.
 - Day 35: Expense Tracker
 - Day 36: Task Manager
 - Day 37: Task Manager with SQLite
+- Day 38: Expense Tracker with SQLite
 
     
 ### 🚀 Projects
