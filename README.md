@@ -189,6 +189,5 @@ Technologies Used:
 - Random Module
 
 ## 🎯 Upcoming Goals
-- APIs
 - DSA
 - Portfolio Website
