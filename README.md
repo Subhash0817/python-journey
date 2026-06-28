@@ -43,6 +43,8 @@ Daily Python learning and projects.
 - Day 38: Expense Tracker with SQLite
 - Day 39: Library Management System
 - Day 40: Student Result Management System
+- Day 41: Employee Management System
+
     
 ### 🚀 Projects
 ## Study Assistant
