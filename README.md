@@ -44,6 +44,7 @@ Daily Python learning and projects.
 - Day 39: Library Management System
 - Day 40: Student Result Management System
 - Day 41: Employee Management System
+- Day 42: Bank Management System
 
     
 ### 🚀 Projects
